@@ -1,3 +1,0 @@
-F:/C++/SipmleTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-F:/C++/SipmleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir
-F:/C++/SipmleTest/cmake-build-debug/CMakeFiles/edit_cache.dir

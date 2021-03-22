@@ -83,13 +83,31 @@
 		<Unit filename="F:/C++/SipmleTest/Calculator.cpp">
 			<Option target="SipmleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SipmleTest/CompleteNumber.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SipmleTest/Count9.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SipmleTest/DataDefinition.cpp">
 			<Option target="SipmleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SipmleTest/Factorial.cpp">
 			<Option target="SipmleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SipmleTest/MaxIntegerInString.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SipmleTest/ParseInt.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SipmleTest/ReverseParagraph.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SipmleTest/SubStringCounter.cpp">
+			<Option target="SipmleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SipmleTest/ToString.cpp">
 			<Option target="SipmleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SipmleTest/YangHuiTriangle.cpp">

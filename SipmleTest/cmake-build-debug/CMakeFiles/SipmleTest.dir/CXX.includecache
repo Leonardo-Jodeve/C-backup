@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/C++/SipmleTest/Count9.cpp
+F:/C++/SipmleTest/MaxIntegerInString.cpp
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

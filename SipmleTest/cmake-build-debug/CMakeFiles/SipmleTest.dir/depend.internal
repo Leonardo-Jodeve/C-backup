@@ -3,11 +3,23 @@
 
 CMakeFiles/SipmleTest.dir/Calculator.cpp.obj
  F:/C++/SipmleTest/Calculator.cpp
+CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj
+ F:/C++/SipmleTest/CompleteNumber.cpp
 CMakeFiles/SipmleTest.dir/Count9.cpp.obj
  F:/C++/SipmleTest/Count9.cpp
+CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj
+ F:/C++/SipmleTest/DataDefinition.cpp
 CMakeFiles/SipmleTest.dir/Factorial.cpp.obj
  F:/C++/SipmleTest/Factorial.cpp
+CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj
+ F:/C++/SipmleTest/MaxIntegerInString.cpp
+CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj
+ F:/C++/SipmleTest/ParseInt.cpp
+CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj
+ F:/C++/SipmleTest/ReverseParagraph.cpp
 CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.obj
  F:/C++/SipmleTest/SubStringCounter.cpp
+CMakeFiles/SipmleTest.dir/ToString.cpp.obj
+ F:/C++/SipmleTest/ToString.cpp
 CMakeFiles/SipmleTest.dir/YangHuiTriangle.cpp.obj
  F:/C++/SipmleTest/YangHuiTriangle.cpp

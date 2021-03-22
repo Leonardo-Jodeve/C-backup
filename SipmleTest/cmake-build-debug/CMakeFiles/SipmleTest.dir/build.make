@@ -141,13 +141,97 @@ CMakeFiles/SipmleTest.dir/Count9.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/Count9.cpp.s"
 	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\Count9.cpp -o CMakeFiles\SipmleTest.dir\Count9.cpp.s
 
+CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj: ../CompleteNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\CompleteNumber.cpp.obj -c F:\C++\SipmleTest\CompleteNumber.cpp
+
+CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\CompleteNumber.cpp > CMakeFiles\SipmleTest.dir\CompleteNumber.cpp.i
+
+CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\CompleteNumber.cpp -o CMakeFiles\SipmleTest.dir\CompleteNumber.cpp.s
+
+CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj: ../ParseInt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\ParseInt.cpp.obj -c F:\C++\SipmleTest\ParseInt.cpp
+
+CMakeFiles/SipmleTest.dir/ParseInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/ParseInt.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\ParseInt.cpp > CMakeFiles\SipmleTest.dir\ParseInt.cpp.i
+
+CMakeFiles/SipmleTest.dir/ParseInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/ParseInt.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\ParseInt.cpp -o CMakeFiles\SipmleTest.dir\ParseInt.cpp.s
+
+CMakeFiles/SipmleTest.dir/ToString.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/ToString.cpp.obj: ../ToString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SipmleTest.dir/ToString.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\ToString.cpp.obj -c F:\C++\SipmleTest\ToString.cpp
+
+CMakeFiles/SipmleTest.dir/ToString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/ToString.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\ToString.cpp > CMakeFiles\SipmleTest.dir\ToString.cpp.i
+
+CMakeFiles/SipmleTest.dir/ToString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/ToString.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\ToString.cpp -o CMakeFiles\SipmleTest.dir\ToString.cpp.s
+
+CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj: ../ReverseParagraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\ReverseParagraph.cpp.obj -c F:\C++\SipmleTest\ReverseParagraph.cpp
+
+CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\ReverseParagraph.cpp > CMakeFiles\SipmleTest.dir\ReverseParagraph.cpp.i
+
+CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\ReverseParagraph.cpp -o CMakeFiles\SipmleTest.dir\ReverseParagraph.cpp.s
+
+CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj: ../DataDefinition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\DataDefinition.cpp.obj -c F:\C++\SipmleTest\DataDefinition.cpp
+
+CMakeFiles/SipmleTest.dir/DataDefinition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/DataDefinition.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\DataDefinition.cpp > CMakeFiles\SipmleTest.dir\DataDefinition.cpp.i
+
+CMakeFiles/SipmleTest.dir/DataDefinition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/DataDefinition.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\DataDefinition.cpp -o CMakeFiles\SipmleTest.dir\DataDefinition.cpp.s
+
+CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj: CMakeFiles/SipmleTest.dir/flags.make
+CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj: ../MaxIntegerInString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SipmleTest.dir\MaxIntegerInString.cpp.obj -c F:\C++\SipmleTest\MaxIntegerInString.cpp
+
+CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SipmleTest\MaxIntegerInString.cpp > CMakeFiles\SipmleTest.dir\MaxIntegerInString.cpp.i
+
+CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SipmleTest\MaxIntegerInString.cpp -o CMakeFiles\SipmleTest.dir\MaxIntegerInString.cpp.s
+
 # Object files for target SipmleTest
 SipmleTest_OBJECTS = \
 "CMakeFiles/SipmleTest.dir/YangHuiTriangle.cpp.obj" \
 "CMakeFiles/SipmleTest.dir/Factorial.cpp.obj" \
 "CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.obj" \
 "CMakeFiles/SipmleTest.dir/Calculator.cpp.obj" \
-"CMakeFiles/SipmleTest.dir/Count9.cpp.obj"
+"CMakeFiles/SipmleTest.dir/Count9.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/ToString.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj" \
+"CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj"
 
 # External object files for target SipmleTest
 SipmleTest_EXTERNAL_OBJECTS =
@@ -157,11 +241,17 @@ SipmleTest.exe: CMakeFiles/SipmleTest.dir/Factorial.cpp.obj
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.obj
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/Calculator.cpp.obj
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/Count9.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/ToString.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj
+SipmleTest.exe: CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/build.make
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/linklibs.rsp
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/objects1.rsp
 SipmleTest.exe: CMakeFiles/SipmleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SipmleTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C++\SipmleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SipmleTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SipmleTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

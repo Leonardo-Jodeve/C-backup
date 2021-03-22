@@ -169,6 +169,33 @@ Calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Calculator.cpp.s
 .PHONY : Calculator.cpp.s
 
+CompleteNumber.obj: CompleteNumber.cpp.obj
+
+.PHONY : CompleteNumber.obj
+
+# target to build an object file
+CompleteNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj
+.PHONY : CompleteNumber.cpp.obj
+
+CompleteNumber.i: CompleteNumber.cpp.i
+
+.PHONY : CompleteNumber.i
+
+# target to preprocess a source file
+CompleteNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.i
+.PHONY : CompleteNumber.cpp.i
+
+CompleteNumber.s: CompleteNumber.cpp.s
+
+.PHONY : CompleteNumber.s
+
+# target to generate assembly for a file
+CompleteNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.s
+.PHONY : CompleteNumber.cpp.s
+
 Count9.obj: Count9.cpp.obj
 
 .PHONY : Count9.obj
@@ -195,6 +222,33 @@ Count9.s: Count9.cpp.s
 Count9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Count9.cpp.s
 .PHONY : Count9.cpp.s
+
+DataDefinition.obj: DataDefinition.cpp.obj
+
+.PHONY : DataDefinition.obj
+
+# target to build an object file
+DataDefinition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj
+.PHONY : DataDefinition.cpp.obj
+
+DataDefinition.i: DataDefinition.cpp.i
+
+.PHONY : DataDefinition.i
+
+# target to preprocess a source file
+DataDefinition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.i
+.PHONY : DataDefinition.cpp.i
+
+DataDefinition.s: DataDefinition.cpp.s
+
+.PHONY : DataDefinition.s
+
+# target to generate assembly for a file
+DataDefinition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.s
+.PHONY : DataDefinition.cpp.s
 
 Factorial.obj: Factorial.cpp.obj
 
@@ -223,6 +277,87 @@ Factorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Factorial.cpp.s
 .PHONY : Factorial.cpp.s
 
+MaxIntegerInString.obj: MaxIntegerInString.cpp.obj
+
+.PHONY : MaxIntegerInString.obj
+
+# target to build an object file
+MaxIntegerInString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj
+.PHONY : MaxIntegerInString.cpp.obj
+
+MaxIntegerInString.i: MaxIntegerInString.cpp.i
+
+.PHONY : MaxIntegerInString.i
+
+# target to preprocess a source file
+MaxIntegerInString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.i
+.PHONY : MaxIntegerInString.cpp.i
+
+MaxIntegerInString.s: MaxIntegerInString.cpp.s
+
+.PHONY : MaxIntegerInString.s
+
+# target to generate assembly for a file
+MaxIntegerInString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.s
+.PHONY : MaxIntegerInString.cpp.s
+
+ParseInt.obj: ParseInt.cpp.obj
+
+.PHONY : ParseInt.obj
+
+# target to build an object file
+ParseInt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj
+.PHONY : ParseInt.cpp.obj
+
+ParseInt.i: ParseInt.cpp.i
+
+.PHONY : ParseInt.i
+
+# target to preprocess a source file
+ParseInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.i
+.PHONY : ParseInt.cpp.i
+
+ParseInt.s: ParseInt.cpp.s
+
+.PHONY : ParseInt.s
+
+# target to generate assembly for a file
+ParseInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.s
+.PHONY : ParseInt.cpp.s
+
+ReverseParagraph.obj: ReverseParagraph.cpp.obj
+
+.PHONY : ReverseParagraph.obj
+
+# target to build an object file
+ReverseParagraph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj
+.PHONY : ReverseParagraph.cpp.obj
+
+ReverseParagraph.i: ReverseParagraph.cpp.i
+
+.PHONY : ReverseParagraph.i
+
+# target to preprocess a source file
+ReverseParagraph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.i
+.PHONY : ReverseParagraph.cpp.i
+
+ReverseParagraph.s: ReverseParagraph.cpp.s
+
+.PHONY : ReverseParagraph.s
+
+# target to generate assembly for a file
+ReverseParagraph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.s
+.PHONY : ReverseParagraph.cpp.s
+
 SubStringCounter.obj: SubStringCounter.cpp.obj
 
 .PHONY : SubStringCounter.obj
@@ -249,6 +384,33 @@ SubStringCounter.s: SubStringCounter.cpp.s
 SubStringCounter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.s
 .PHONY : SubStringCounter.cpp.s
+
+ToString.obj: ToString.cpp.obj
+
+.PHONY : ToString.obj
+
+# target to build an object file
+ToString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.obj
+.PHONY : ToString.cpp.obj
+
+ToString.i: ToString.cpp.i
+
+.PHONY : ToString.i
+
+# target to preprocess a source file
+ToString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.i
+.PHONY : ToString.cpp.i
+
+ToString.s: ToString.cpp.s
+
+.PHONY : ToString.s
+
+# target to generate assembly for a file
+ToString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.s
+.PHONY : ToString.cpp.s
 
 YangHuiTriangle.obj: YangHuiTriangle.cpp.obj
 
@@ -289,15 +451,33 @@ help:
 	@echo ... Calculator.obj
 	@echo ... Calculator.i
 	@echo ... Calculator.s
+	@echo ... CompleteNumber.obj
+	@echo ... CompleteNumber.i
+	@echo ... CompleteNumber.s
 	@echo ... Count9.obj
 	@echo ... Count9.i
 	@echo ... Count9.s
+	@echo ... DataDefinition.obj
+	@echo ... DataDefinition.i
+	@echo ... DataDefinition.s
 	@echo ... Factorial.obj
 	@echo ... Factorial.i
 	@echo ... Factorial.s
+	@echo ... MaxIntegerInString.obj
+	@echo ... MaxIntegerInString.i
+	@echo ... MaxIntegerInString.s
+	@echo ... ParseInt.obj
+	@echo ... ParseInt.i
+	@echo ... ParseInt.s
+	@echo ... ReverseParagraph.obj
+	@echo ... ReverseParagraph.i
+	@echo ... ReverseParagraph.s
 	@echo ... SubStringCounter.obj
 	@echo ... SubStringCounter.i
 	@echo ... SubStringCounter.s
+	@echo ... ToString.obj
+	@echo ... ToString.i
+	@echo ... ToString.s
 	@echo ... YangHuiTriangle.obj
 	@echo ... YangHuiTriangle.i
 	@echo ... YangHuiTriangle.s

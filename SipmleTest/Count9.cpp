@@ -12,6 +12,7 @@ int Count9(int n)
     {
         int temp = i;
         int checkIfNine = 0;
+
         while(temp != 0)
         {
             checkIfNine = temp % 10;
@@ -26,8 +27,8 @@ int Count9(int n)
     return count;
 }
 
-int main()
-{
-    printf("count 9 in 99 is:%d",Count9(99));
-    return 0;
-}
+//int main()
+//{
+//    printf("count 9 in 99 is:%d",Count9(9999999));
+//    return 0;
+//}

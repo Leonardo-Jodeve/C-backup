@@ -21,7 +21,7 @@ int * CountCharacters(char string[], int length)
     return characterCount;
 }
 
-int * FindMinNumberInArray(int *(array[]), int length)
+int * FindMinNumberInArray(int (*array), int length)
 {
     static int minIndex[MAX_LENGTH] = {0};
     int minValue = INT_MAX;
@@ -29,15 +29,15 @@ int * FindMinNumberInArray(int *(array[]), int length)
 
     for(int i = 0; i < length; i++)
     {
-        if(*(array+i) < minValue && **(array+i) != 0)
+        if(*(array+i) < minValue && *(array+i) != 0)
         {
-            minValue = **(array+i);
+            minValue = *(array+i);
         }
     }
 
     for(int i = 0; i < length; i++)
     {
-        if(**(array+i) == minValue)
+        if(*(array+i) == minValue)
         {
             minIndex[index] = i;
             index++;
@@ -52,7 +52,14 @@ void DeleteCharacterFromString(char string[], int length, int indexToDelete[])
     int i = 0;
     while(indexToDelete[i] != -1)
     {
-        string[indexToDelete[i]] = '\7';
+        for(int j = 0; j < length; j++)
+        {
+            if(string[j] - indexToDelete[i] == 0)
+            {
+                string[j] = '\7';
+            }
+        }
+        i++;
     }
 }
 
@@ -77,7 +84,7 @@ void CleanString(char string[], int length)
 
 int main()
 {
-    char string[20] = "Hello World!";
+    char string[20] = "Hello";
     DeleteCharacterFromString(string,strlen(string),FindMinNumberInArray(CountCharacters(string,strlen(string)),128));
     CleanString(string,strlen(string));
     printf("%s",string);

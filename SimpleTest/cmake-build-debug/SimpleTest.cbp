@@ -83,9 +83,6 @@
 		<Unit filename="F:/C++/SimpleTest/Calculator.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
-		<Unit filename="F:/C++/SimpleTest/CompleteNumber.cpp">
-			<Option target="SimpleTest"/>
-		</Unit>
 		<Unit filename="F:/C++/SimpleTest/Count9.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
@@ -95,10 +92,16 @@
 		<Unit filename="F:/C++/SimpleTest/DecToHex.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SimpleTest/Factorial.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/FindLegalFrame.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SimpleTest/FunctionPointer.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/JosephusProblem.cpp">

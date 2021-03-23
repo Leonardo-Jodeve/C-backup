@@ -141,22 +141,9 @@ CMakeFiles/SimpleTest.dir/Count9.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/Count9.cpp.s"
 	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\Count9.cpp -o CMakeFiles\SimpleTest.dir\Count9.cpp.s
 
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj: ../CompleteNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj"
-	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\CompleteNumber.cpp.obj -c F:\C++\SimpleTest\CompleteNumber.cpp
-
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.i"
-	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SimpleTest\CompleteNumber.cpp > CMakeFiles\SimpleTest.dir\CompleteNumber.cpp.i
-
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.s"
-	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\CompleteNumber.cpp -o CMakeFiles\SimpleTest.dir\CompleteNumber.cpp.s
-
 CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj: ../ParseInt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\ParseInt.cpp.obj -c F:\C++\SimpleTest\ParseInt.cpp
 
 CMakeFiles/SimpleTest.dir/ParseInt.cpp.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/SimpleTest.dir/ParseInt.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/ToString.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/ToString.cpp.obj: ../ToString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimpleTest.dir/ToString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleTest.dir/ToString.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\ToString.cpp.obj -c F:\C++\SimpleTest\ToString.cpp
 
 CMakeFiles/SimpleTest.dir/ToString.cpp.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/SimpleTest.dir/ToString.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj: ../ReverseParagraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\ReverseParagraph.cpp.obj -c F:\C++\SimpleTest\ReverseParagraph.cpp
 
 CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj: ../DataDefinition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\DataDefinition.cpp.obj -c F:\C++\SimpleTest\DataDefinition.cpp
 
 CMakeFiles/SimpleTest.dir/DataDefinition.cpp.i: cmake_force
@@ -208,7 +195,7 @@ CMakeFiles/SimpleTest.dir/DataDefinition.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj: ../MaxIntegerInString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\MaxIntegerInString.cpp.obj -c F:\C++\SimpleTest\MaxIntegerInString.cpp
 
 CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.i: cmake_force
@@ -221,7 +208,7 @@ CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj: ../DecToHex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\DecToHex.cpp.obj -c F:\C++\SimpleTest\DecToHex.cpp
 
 CMakeFiles/SimpleTest.dir/DecToHex.cpp.i: cmake_force
@@ -234,7 +221,7 @@ CMakeFiles/SimpleTest.dir/DecToHex.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj: ../JosephusProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\JosephusProblem.cpp.obj -c F:\C++\SimpleTest\JosephusProblem.cpp
 
 CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.i: cmake_force
@@ -247,7 +234,7 @@ CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.s: cmake_force
 
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj: ../FindLegalFrame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj"
 	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\FindLegalFrame.cpp.obj -c F:\C++\SimpleTest\FindLegalFrame.cpp
 
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.i: cmake_force
@@ -258,6 +245,32 @@ CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.s"
 	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\FindLegalFrame.cpp -o CMakeFiles\SimpleTest.dir\FindLegalFrame.cpp.s
 
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj: ../FunctionPointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\FunctionPointer.cpp.obj -c F:\C++\SimpleTest\FunctionPointer.cpp
+
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SimpleTest\FunctionPointer.cpp > CMakeFiles\SimpleTest.dir\FunctionPointer.cpp.i
+
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\FunctionPointer.cpp -o CMakeFiles\SimpleTest.dir\FunctionPointer.cpp.s
+
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj: ../DeleteTheLeastCharacters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\DeleteTheLeastCharacters.cpp.obj -c F:\C++\SimpleTest\DeleteTheLeastCharacters.cpp
+
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SimpleTest\DeleteTheLeastCharacters.cpp > CMakeFiles\SimpleTest.dir\DeleteTheLeastCharacters.cpp.i
+
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\DeleteTheLeastCharacters.cpp -o CMakeFiles\SimpleTest.dir\DeleteTheLeastCharacters.cpp.s
+
 # Object files for target SimpleTest
 SimpleTest_OBJECTS = \
 "CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.obj" \
@@ -265,7 +278,6 @@ SimpleTest_OBJECTS = \
 "CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/Calculator.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/Count9.cpp.obj" \
-"CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/ToString.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj" \
@@ -273,7 +285,9 @@ SimpleTest_OBJECTS = \
 "CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj" \
-"CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj"
+"CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj" \
+"CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj" \
+"CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj"
 
 # External object files for target SimpleTest
 SimpleTest_EXTERNAL_OBJECTS =
@@ -283,7 +297,6 @@ SimpleTest.exe: CMakeFiles/SimpleTest.dir/Factorial.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/Calculator.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/Count9.cpp.obj
-SimpleTest.exe: CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/ToString.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj
@@ -292,11 +305,13 @@ SimpleTest.exe: CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj
+SimpleTest.exe: CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj
+SimpleTest.exe: CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/build.make
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/linklibs.rsp
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/objects1.rsp
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SimpleTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable SimpleTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SimpleTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

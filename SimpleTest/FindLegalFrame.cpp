@@ -33,13 +33,13 @@ void FindLegalFrame(char* source, char* head, char* tail, char legalFrame[])
     }
 }
 
-int main(int args, char* argv[])
-{
-    char* source = "000head1234tail000";
-    char* head = "head";
-    char* tail = "tail";
-    char legalFrame[sizeof source];
-
-    FindLegalFrame(source,head,tail,legalFrame);
-    printf("%s",legalFrame);
-}
+//int main(int args, char* argv[])
+//{
+//    char* source = "000head1234tail000";
+//    char* head = "head";
+//    char* tail = "tail";
+//    char legalFrame[sizeof source];
+//
+//    FindLegalFrame(source,head,tail,legalFrame);
+//    printf("%s",legalFrame);
+//}

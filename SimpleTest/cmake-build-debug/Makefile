@@ -169,33 +169,6 @@ Calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Calculator.cpp.s
 .PHONY : Calculator.cpp.s
 
-CompleteNumber.obj: CompleteNumber.cpp.obj
-
-.PHONY : CompleteNumber.obj
-
-# target to build an object file
-CompleteNumber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj
-.PHONY : CompleteNumber.cpp.obj
-
-CompleteNumber.i: CompleteNumber.cpp.i
-
-.PHONY : CompleteNumber.i
-
-# target to preprocess a source file
-CompleteNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.i
-.PHONY : CompleteNumber.cpp.i
-
-CompleteNumber.s: CompleteNumber.cpp.s
-
-.PHONY : CompleteNumber.s
-
-# target to generate assembly for a file
-CompleteNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.s
-.PHONY : CompleteNumber.cpp.s
-
 Count9.obj: Count9.cpp.obj
 
 .PHONY : Count9.obj
@@ -277,6 +250,33 @@ DecToHex.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DecToHex.cpp.s
 .PHONY : DecToHex.cpp.s
 
+DeleteTheLeastCharacters.obj: DeleteTheLeastCharacters.cpp.obj
+
+.PHONY : DeleteTheLeastCharacters.obj
+
+# target to build an object file
+DeleteTheLeastCharacters.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj
+.PHONY : DeleteTheLeastCharacters.cpp.obj
+
+DeleteTheLeastCharacters.i: DeleteTheLeastCharacters.cpp.i
+
+.PHONY : DeleteTheLeastCharacters.i
+
+# target to preprocess a source file
+DeleteTheLeastCharacters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.i
+.PHONY : DeleteTheLeastCharacters.cpp.i
+
+DeleteTheLeastCharacters.s: DeleteTheLeastCharacters.cpp.s
+
+.PHONY : DeleteTheLeastCharacters.s
+
+# target to generate assembly for a file
+DeleteTheLeastCharacters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.s
+.PHONY : DeleteTheLeastCharacters.cpp.s
+
 Factorial.obj: Factorial.cpp.obj
 
 .PHONY : Factorial.obj
@@ -330,6 +330,33 @@ FindLegalFrame.s: FindLegalFrame.cpp.s
 FindLegalFrame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.s
 .PHONY : FindLegalFrame.cpp.s
+
+FunctionPointer.obj: FunctionPointer.cpp.obj
+
+.PHONY : FunctionPointer.obj
+
+# target to build an object file
+FunctionPointer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj
+.PHONY : FunctionPointer.cpp.obj
+
+FunctionPointer.i: FunctionPointer.cpp.i
+
+.PHONY : FunctionPointer.i
+
+# target to preprocess a source file
+FunctionPointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.i
+.PHONY : FunctionPointer.cpp.i
+
+FunctionPointer.s: FunctionPointer.cpp.s
+
+.PHONY : FunctionPointer.s
+
+# target to generate assembly for a file
+FunctionPointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.s
+.PHONY : FunctionPointer.cpp.s
 
 JosephusProblem.obj: JosephusProblem.cpp.obj
 
@@ -532,9 +559,6 @@ help:
 	@echo ... Calculator.obj
 	@echo ... Calculator.i
 	@echo ... Calculator.s
-	@echo ... CompleteNumber.obj
-	@echo ... CompleteNumber.i
-	@echo ... CompleteNumber.s
 	@echo ... Count9.obj
 	@echo ... Count9.i
 	@echo ... Count9.s
@@ -544,12 +568,18 @@ help:
 	@echo ... DecToHex.obj
 	@echo ... DecToHex.i
 	@echo ... DecToHex.s
+	@echo ... DeleteTheLeastCharacters.obj
+	@echo ... DeleteTheLeastCharacters.i
+	@echo ... DeleteTheLeastCharacters.s
 	@echo ... Factorial.obj
 	@echo ... Factorial.i
 	@echo ... Factorial.s
 	@echo ... FindLegalFrame.obj
 	@echo ... FindLegalFrame.i
 	@echo ... FindLegalFrame.s
+	@echo ... FunctionPointer.obj
+	@echo ... FunctionPointer.i
+	@echo ... FunctionPointer.s
 	@echo ... JosephusProblem.obj
 	@echo ... JosephusProblem.i
 	@echo ... JosephusProblem.s

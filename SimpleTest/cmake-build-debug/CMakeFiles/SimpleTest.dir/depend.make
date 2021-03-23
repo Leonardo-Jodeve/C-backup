@@ -3,17 +3,19 @@
 
 CMakeFiles/SimpleTest.dir/Calculator.cpp.obj: ../Calculator.cpp
 
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj: ../CompleteNumber.cpp
-
 CMakeFiles/SimpleTest.dir/Count9.cpp.obj: ../Count9.cpp
 
 CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj: ../DataDefinition.cpp
 
 CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj: ../DecToHex.cpp
 
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj: ../DeleteTheLeastCharacters.cpp
+
 CMakeFiles/SimpleTest.dir/Factorial.cpp.obj: ../Factorial.cpp
 
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj: ../FindLegalFrame.cpp
+
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj: ../FunctionPointer.cpp
 
 CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj: ../JosephusProblem.cpp
 

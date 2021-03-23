@@ -3,18 +3,20 @@
 
 CMakeFiles/SimpleTest.dir/Calculator.cpp.obj
  F:/C++/SimpleTest/Calculator.cpp
-CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj
- F:/C++/SimpleTest/CompleteNumber.cpp
 CMakeFiles/SimpleTest.dir/Count9.cpp.obj
  F:/C++/SimpleTest/Count9.cpp
 CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj
  F:/C++/SimpleTest/DataDefinition.cpp
 CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj
  F:/C++/SimpleTest/DecToHex.cpp
+CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj
+ F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp
 CMakeFiles/SimpleTest.dir/Factorial.cpp.obj
  F:/C++/SimpleTest/Factorial.cpp
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj
  F:/C++/SimpleTest/FindLegalFrame.cpp
+CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj
+ F:/C++/SimpleTest/FunctionPointer.cpp
 CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj
  F:/C++/SimpleTest/JosephusProblem.cpp
 CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj

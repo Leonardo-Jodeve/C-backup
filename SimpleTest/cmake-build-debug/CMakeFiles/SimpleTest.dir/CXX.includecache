@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/C++/SimpleTest/FindLegalFrame.cpp
+F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp
 stdio.h
 -
 stdlib.h
 -
 string.h
--
-
-F:/C++/SimpleTest/JosephusProblem.cpp
-stdio.h
 -
 

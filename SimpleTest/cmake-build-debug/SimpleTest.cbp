@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="SipmleTest"/>
+		<Option title="SimpleTest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -17,18 +17,8 @@
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="F:/C++/SimpleTest/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SipmleTest">
-				<Option output="F:/C++/SimpleTest/cmake-build-debug/SipmleTest.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="SimpleTest">
+				<Option output="F:/C++/SimpleTest/cmake-build-debug/SimpleTest.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/C++/SimpleTest/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +32,14 @@
 					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SipmleTest"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleTest"/>
 					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SipmleTest/fast">
-				<Option output="F:/C++/SimpleTest/cmake-build-debug/SipmleTest.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="SimpleTest/fast">
+				<Option output="F:/C++/SimpleTest/cmake-build-debug/SimpleTest.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/C++/SimpleTest/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +53,7 @@
 					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SipmleTest/fast"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleTest/fast"/>
 					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,45 +69,58 @@
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/C++/SimpleTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/C++/SimpleTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="F:/C++/SimpleTest/Calculator.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/CompleteNumber.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/Count9.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/DataDefinition.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/DecToHex.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/Factorial.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SimpleTest/FindLegalFrame.cpp">
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/JosephusProblem.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/MaxIntegerInString.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ParseInt.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ReverseParagraph.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/SubStringCounter.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ToString.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/YangHuiTriangle.cpp">
-			<Option target="SipmleTest"/>
+			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

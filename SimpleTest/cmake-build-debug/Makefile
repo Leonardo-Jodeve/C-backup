@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = F:\C++\SimpleTest\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SipmleTest
+# Target rules for targets named SimpleTest
 
 # Build rule for target.
-SipmleTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SipmleTest
-.PHONY : SipmleTest
+SimpleTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleTest
+.PHONY : SimpleTest
 
 # fast build rule for target.
-SipmleTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/build
-.PHONY : SipmleTest/fast
+SimpleTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/build
+.PHONY : SimpleTest/fast
 
 Calculator.obj: Calculator.cpp.obj
 
@@ -148,7 +148,7 @@ Calculator.obj: Calculator.cpp.obj
 
 # target to build an object file
 Calculator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Calculator.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Calculator.cpp.obj
 .PHONY : Calculator.cpp.obj
 
 Calculator.i: Calculator.cpp.i
@@ -157,7 +157,7 @@ Calculator.i: Calculator.cpp.i
 
 # target to preprocess a source file
 Calculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Calculator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Calculator.cpp.i
 .PHONY : Calculator.cpp.i
 
 Calculator.s: Calculator.cpp.s
@@ -166,7 +166,7 @@ Calculator.s: Calculator.cpp.s
 
 # target to generate assembly for a file
 Calculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Calculator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Calculator.cpp.s
 .PHONY : Calculator.cpp.s
 
 CompleteNumber.obj: CompleteNumber.cpp.obj
@@ -175,7 +175,7 @@ CompleteNumber.obj: CompleteNumber.cpp.obj
 
 # target to build an object file
 CompleteNumber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.obj
 .PHONY : CompleteNumber.cpp.obj
 
 CompleteNumber.i: CompleteNumber.cpp.i
@@ -184,7 +184,7 @@ CompleteNumber.i: CompleteNumber.cpp.i
 
 # target to preprocess a source file
 CompleteNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.i
 .PHONY : CompleteNumber.cpp.i
 
 CompleteNumber.s: CompleteNumber.cpp.s
@@ -193,7 +193,7 @@ CompleteNumber.s: CompleteNumber.cpp.s
 
 # target to generate assembly for a file
 CompleteNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/CompleteNumber.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/CompleteNumber.cpp.s
 .PHONY : CompleteNumber.cpp.s
 
 Count9.obj: Count9.cpp.obj
@@ -202,7 +202,7 @@ Count9.obj: Count9.cpp.obj
 
 # target to build an object file
 Count9.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Count9.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Count9.cpp.obj
 .PHONY : Count9.cpp.obj
 
 Count9.i: Count9.cpp.i
@@ -211,7 +211,7 @@ Count9.i: Count9.cpp.i
 
 # target to preprocess a source file
 Count9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Count9.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Count9.cpp.i
 .PHONY : Count9.cpp.i
 
 Count9.s: Count9.cpp.s
@@ -220,7 +220,7 @@ Count9.s: Count9.cpp.s
 
 # target to generate assembly for a file
 Count9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Count9.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Count9.cpp.s
 .PHONY : Count9.cpp.s
 
 DataDefinition.obj: DataDefinition.cpp.obj
@@ -229,7 +229,7 @@ DataDefinition.obj: DataDefinition.cpp.obj
 
 # target to build an object file
 DataDefinition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DataDefinition.cpp.obj
 .PHONY : DataDefinition.cpp.obj
 
 DataDefinition.i: DataDefinition.cpp.i
@@ -238,7 +238,7 @@ DataDefinition.i: DataDefinition.cpp.i
 
 # target to preprocess a source file
 DataDefinition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DataDefinition.cpp.i
 .PHONY : DataDefinition.cpp.i
 
 DataDefinition.s: DataDefinition.cpp.s
@@ -247,7 +247,7 @@ DataDefinition.s: DataDefinition.cpp.s
 
 # target to generate assembly for a file
 DataDefinition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DataDefinition.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DataDefinition.cpp.s
 .PHONY : DataDefinition.cpp.s
 
 DecToHex.obj: DecToHex.cpp.obj
@@ -256,7 +256,7 @@ DecToHex.obj: DecToHex.cpp.obj
 
 # target to build an object file
 DecToHex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DecToHex.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DecToHex.cpp.obj
 .PHONY : DecToHex.cpp.obj
 
 DecToHex.i: DecToHex.cpp.i
@@ -265,7 +265,7 @@ DecToHex.i: DecToHex.cpp.i
 
 # target to preprocess a source file
 DecToHex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DecToHex.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DecToHex.cpp.i
 .PHONY : DecToHex.cpp.i
 
 DecToHex.s: DecToHex.cpp.s
@@ -274,7 +274,7 @@ DecToHex.s: DecToHex.cpp.s
 
 # target to generate assembly for a file
 DecToHex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/DecToHex.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/DecToHex.cpp.s
 .PHONY : DecToHex.cpp.s
 
 Factorial.obj: Factorial.cpp.obj
@@ -283,7 +283,7 @@ Factorial.obj: Factorial.cpp.obj
 
 # target to build an object file
 Factorial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Factorial.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Factorial.cpp.obj
 .PHONY : Factorial.cpp.obj
 
 Factorial.i: Factorial.cpp.i
@@ -292,7 +292,7 @@ Factorial.i: Factorial.cpp.i
 
 # target to preprocess a source file
 Factorial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Factorial.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Factorial.cpp.i
 .PHONY : Factorial.cpp.i
 
 Factorial.s: Factorial.cpp.s
@@ -301,8 +301,35 @@ Factorial.s: Factorial.cpp.s
 
 # target to generate assembly for a file
 Factorial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/Factorial.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Factorial.cpp.s
 .PHONY : Factorial.cpp.s
+
+FindLegalFrame.obj: FindLegalFrame.cpp.obj
+
+.PHONY : FindLegalFrame.obj
+
+# target to build an object file
+FindLegalFrame.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj
+.PHONY : FindLegalFrame.cpp.obj
+
+FindLegalFrame.i: FindLegalFrame.cpp.i
+
+.PHONY : FindLegalFrame.i
+
+# target to preprocess a source file
+FindLegalFrame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.i
+.PHONY : FindLegalFrame.cpp.i
+
+FindLegalFrame.s: FindLegalFrame.cpp.s
+
+.PHONY : FindLegalFrame.s
+
+# target to generate assembly for a file
+FindLegalFrame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.s
+.PHONY : FindLegalFrame.cpp.s
 
 JosephusProblem.obj: JosephusProblem.cpp.obj
 
@@ -310,7 +337,7 @@ JosephusProblem.obj: JosephusProblem.cpp.obj
 
 # target to build an object file
 JosephusProblem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/JosephusProblem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj
 .PHONY : JosephusProblem.cpp.obj
 
 JosephusProblem.i: JosephusProblem.cpp.i
@@ -319,7 +346,7 @@ JosephusProblem.i: JosephusProblem.cpp.i
 
 # target to preprocess a source file
 JosephusProblem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/JosephusProblem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.i
 .PHONY : JosephusProblem.cpp.i
 
 JosephusProblem.s: JosephusProblem.cpp.s
@@ -328,7 +355,7 @@ JosephusProblem.s: JosephusProblem.cpp.s
 
 # target to generate assembly for a file
 JosephusProblem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/JosephusProblem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.s
 .PHONY : JosephusProblem.cpp.s
 
 MaxIntegerInString.obj: MaxIntegerInString.cpp.obj
@@ -337,7 +364,7 @@ MaxIntegerInString.obj: MaxIntegerInString.cpp.obj
 
 # target to build an object file
 MaxIntegerInString.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj
 .PHONY : MaxIntegerInString.cpp.obj
 
 MaxIntegerInString.i: MaxIntegerInString.cpp.i
@@ -346,7 +373,7 @@ MaxIntegerInString.i: MaxIntegerInString.cpp.i
 
 # target to preprocess a source file
 MaxIntegerInString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.i
 .PHONY : MaxIntegerInString.cpp.i
 
 MaxIntegerInString.s: MaxIntegerInString.cpp.s
@@ -355,7 +382,7 @@ MaxIntegerInString.s: MaxIntegerInString.cpp.s
 
 # target to generate assembly for a file
 MaxIntegerInString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.s
 .PHONY : MaxIntegerInString.cpp.s
 
 ParseInt.obj: ParseInt.cpp.obj
@@ -364,7 +391,7 @@ ParseInt.obj: ParseInt.cpp.obj
 
 # target to build an object file
 ParseInt.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj
 .PHONY : ParseInt.cpp.obj
 
 ParseInt.i: ParseInt.cpp.i
@@ -373,7 +400,7 @@ ParseInt.i: ParseInt.cpp.i
 
 # target to preprocess a source file
 ParseInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ParseInt.cpp.i
 .PHONY : ParseInt.cpp.i
 
 ParseInt.s: ParseInt.cpp.s
@@ -382,7 +409,7 @@ ParseInt.s: ParseInt.cpp.s
 
 # target to generate assembly for a file
 ParseInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ParseInt.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ParseInt.cpp.s
 .PHONY : ParseInt.cpp.s
 
 ReverseParagraph.obj: ReverseParagraph.cpp.obj
@@ -391,7 +418,7 @@ ReverseParagraph.obj: ReverseParagraph.cpp.obj
 
 # target to build an object file
 ReverseParagraph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj
 .PHONY : ReverseParagraph.cpp.obj
 
 ReverseParagraph.i: ReverseParagraph.cpp.i
@@ -400,7 +427,7 @@ ReverseParagraph.i: ReverseParagraph.cpp.i
 
 # target to preprocess a source file
 ReverseParagraph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.i
 .PHONY : ReverseParagraph.cpp.i
 
 ReverseParagraph.s: ReverseParagraph.cpp.s
@@ -409,7 +436,7 @@ ReverseParagraph.s: ReverseParagraph.cpp.s
 
 # target to generate assembly for a file
 ReverseParagraph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ReverseParagraph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.s
 .PHONY : ReverseParagraph.cpp.s
 
 SubStringCounter.obj: SubStringCounter.cpp.obj
@@ -418,7 +445,7 @@ SubStringCounter.obj: SubStringCounter.cpp.obj
 
 # target to build an object file
 SubStringCounter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj
 .PHONY : SubStringCounter.cpp.obj
 
 SubStringCounter.i: SubStringCounter.cpp.i
@@ -427,7 +454,7 @@ SubStringCounter.i: SubStringCounter.cpp.i
 
 # target to preprocess a source file
 SubStringCounter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.i
 .PHONY : SubStringCounter.cpp.i
 
 SubStringCounter.s: SubStringCounter.cpp.s
@@ -436,7 +463,7 @@ SubStringCounter.s: SubStringCounter.cpp.s
 
 # target to generate assembly for a file
 SubStringCounter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/SubStringCounter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.s
 .PHONY : SubStringCounter.cpp.s
 
 ToString.obj: ToString.cpp.obj
@@ -445,7 +472,7 @@ ToString.obj: ToString.cpp.obj
 
 # target to build an object file
 ToString.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ToString.cpp.obj
 .PHONY : ToString.cpp.obj
 
 ToString.i: ToString.cpp.i
@@ -454,7 +481,7 @@ ToString.i: ToString.cpp.i
 
 # target to preprocess a source file
 ToString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ToString.cpp.i
 .PHONY : ToString.cpp.i
 
 ToString.s: ToString.cpp.s
@@ -463,7 +490,7 @@ ToString.s: ToString.cpp.s
 
 # target to generate assembly for a file
 ToString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/ToString.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ToString.cpp.s
 .PHONY : ToString.cpp.s
 
 YangHuiTriangle.obj: YangHuiTriangle.cpp.obj
@@ -472,7 +499,7 @@ YangHuiTriangle.obj: YangHuiTriangle.cpp.obj
 
 # target to build an object file
 YangHuiTriangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/YangHuiTriangle.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.obj
 .PHONY : YangHuiTriangle.cpp.obj
 
 YangHuiTriangle.i: YangHuiTriangle.cpp.i
@@ -481,7 +508,7 @@ YangHuiTriangle.i: YangHuiTriangle.cpp.i
 
 # target to preprocess a source file
 YangHuiTriangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/YangHuiTriangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.i
 .PHONY : YangHuiTriangle.cpp.i
 
 YangHuiTriangle.s: YangHuiTriangle.cpp.s
@@ -490,7 +517,7 @@ YangHuiTriangle.s: YangHuiTriangle.cpp.s
 
 # target to generate assembly for a file
 YangHuiTriangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/YangHuiTriangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.s
 .PHONY : YangHuiTriangle.cpp.s
 
 # Help Target
@@ -501,7 +528,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SipmleTest
+	@echo ... SimpleTest
 	@echo ... Calculator.obj
 	@echo ... Calculator.i
 	@echo ... Calculator.s
@@ -520,6 +547,9 @@ help:
 	@echo ... Factorial.obj
 	@echo ... Factorial.i
 	@echo ... Factorial.s
+	@echo ... FindLegalFrame.obj
+	@echo ... FindLegalFrame.i
+	@echo ... FindLegalFrame.s
 	@echo ... JosephusProblem.obj
 	@echo ... JosephusProblem.i
 	@echo ... JosephusProblem.s

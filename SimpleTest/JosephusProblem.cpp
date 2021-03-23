@@ -10,7 +10,6 @@ int JosephusProblem(int count)
     int currentNumber = 0;
     int peopleRemain = count;
     int survivor = 0;
-    int killedCount = 0;
 
     for(int i = 0; i < count; i++)
     {
@@ -28,12 +27,10 @@ int JosephusProblem(int count)
                 {
                     killed[i] = '1';
                     peopleRemain--;
-                    killedCount++;
-                    printf("Killed number %d\n",i+1);
+//                    printf("Killed number %d\n",i+1);
                 }
             }
         }
-        killedCount = 0;
     }
 
     for(int i = 0; i < count; i++)
@@ -47,12 +44,12 @@ int JosephusProblem(int count)
     return survivor;
 }
 
-int main()
-{
-    int people;
-    int survivor;
-    printf("Please enter the number of people:");
-    scanf("%d",&people);
-    survivor = JosephusProblem(people);
-    printf("The final survivor is %d!",survivor);
-}
+//int main()
+//{
+//    int people;
+//    int survivor;
+//    printf("Please enter the number of people:");
+//    scanf("%d",&people);
+//    survivor = JosephusProblem(people);
+//    printf("The final survivor is %d!",survivor);
+//}

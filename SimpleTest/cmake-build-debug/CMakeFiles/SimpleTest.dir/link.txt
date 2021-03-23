@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SimpleTest.dir/objects.a
+"D:\Program Files\mingw64\bin\ar.exe" cr CMakeFiles\SimpleTest.dir/objects.a @CMakeFiles\SimpleTest.dir\objects1.rsp
+"D:\Program Files\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\SimpleTest.dir/objects.a -Wl,--no-whole-archive  -o SimpleTest.exe -Wl,--out-implib,libSimpleTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimpleTest.dir\linklibs.rsp

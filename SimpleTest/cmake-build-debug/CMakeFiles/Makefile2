@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = F:\C++\SimpleTest\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SipmleTest.dir/all
+all: CMakeFiles/SimpleTest.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SipmleTest.dir/clean
+clean: CMakeFiles/SimpleTest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SipmleTest.dir
+# Target rules for target CMakeFiles/SimpleTest.dir
 
 # All Build rule for target.
-CMakeFiles/SipmleTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target SipmleTest"
-.PHONY : CMakeFiles/SipmleTest.dir/all
+CMakeFiles/SimpleTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target SimpleTest"
+.PHONY : CMakeFiles/SimpleTest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SipmleTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C++\SimpleTest\cmake-build-debug\CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SipmleTest.dir/all
+CMakeFiles/SimpleTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C++\SimpleTest\cmake-build-debug\CMakeFiles 15
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SimpleTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C++\SimpleTest\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SipmleTest.dir/rule
+.PHONY : CMakeFiles/SimpleTest.dir/rule
 
 # Convenience name for target.
-SipmleTest: CMakeFiles/SipmleTest.dir/rule
+SimpleTest: CMakeFiles/SimpleTest.dir/rule
 
-.PHONY : SipmleTest
+.PHONY : SimpleTest
 
 # clean rule for target.
-CMakeFiles/SipmleTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SipmleTest.dir\build.make CMakeFiles/SipmleTest.dir/clean
-.PHONY : CMakeFiles/SipmleTest.dir/clean
+CMakeFiles/SimpleTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/clean
+.PHONY : CMakeFiles/SimpleTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

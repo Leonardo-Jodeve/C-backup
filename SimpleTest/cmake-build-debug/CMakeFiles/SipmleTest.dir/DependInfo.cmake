@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "F:/C++/SimpleTest/DataDefinition.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj"
   "F:/C++/SimpleTest/DecToHex.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/DecToHex.cpp.obj"
   "F:/C++/SimpleTest/Factorial.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/Factorial.cpp.obj"
+  "F:/C++/SimpleTest/FindLegalFrame.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/FindLegalFrame.cpp.obj"
   "F:/C++/SimpleTest/JosephusProblem.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/JosephusProblem.cpp.obj"
   "F:/C++/SimpleTest/MaxIntegerInString.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj"
   "F:/C++/SimpleTest/ParseInt.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj"

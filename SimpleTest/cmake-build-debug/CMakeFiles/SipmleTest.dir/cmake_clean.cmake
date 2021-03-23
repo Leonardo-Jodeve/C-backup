@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SipmleTest.dir/DataDefinition.cpp.obj"
   "CMakeFiles/SipmleTest.dir/DecToHex.cpp.obj"
   "CMakeFiles/SipmleTest.dir/Factorial.cpp.obj"
+  "CMakeFiles/SipmleTest.dir/FindLegalFrame.cpp.obj"
   "CMakeFiles/SipmleTest.dir/JosephusProblem.cpp.obj"
   "CMakeFiles/SipmleTest.dir/MaxIntegerInString.cpp.obj"
   "CMakeFiles/SipmleTest.dir/ParseInt.cpp.obj"

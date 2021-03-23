@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define MAX_LENGTH 500
 
 
@@ -73,6 +74,7 @@ void CleanString(char string[], int length)
         if(string[i] != '\7')
         {
             temp = string[i];
+            string[i] = '\7';
             while(j > 0 && string[j-1] == '\7')
             {
                 j--;
@@ -84,7 +86,7 @@ void CleanString(char string[], int length)
 
 int main()
 {
-    char string[20] = "Hello";
+    char string[20] = "Hello World!";
     DeleteCharacterFromString(string,strlen(string),FindMinNumberInArray(CountCharacters(string,strlen(string)),128));
     CleanString(string,strlen(string));
     printf("%s",string);

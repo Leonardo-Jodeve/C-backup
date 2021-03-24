@@ -98,6 +98,9 @@
 		<Unit filename="F:/C++/SimpleTest/Factorial.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SimpleTest/FileCopy.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SimpleTest/FindLegalFrame.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
@@ -111,6 +114,9 @@
 			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ParseInt.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/C++/SimpleTest/ReadWriteHelloWorld.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ReverseParagraph.cpp">

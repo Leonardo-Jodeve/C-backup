@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp
+F:/C++/SimpleTest/FileCopy.cpp
 stdio.h
 -
 stdlib.h
 -
 string.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+fcntl.h
+-
+errno.h
+-
+unistd.h
 -
 

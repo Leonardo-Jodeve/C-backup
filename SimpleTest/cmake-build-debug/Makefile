@@ -304,6 +304,33 @@ Factorial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/Factorial.cpp.s
 .PHONY : Factorial.cpp.s
 
+FileCopy.obj: FileCopy.cpp.obj
+
+.PHONY : FileCopy.obj
+
+# target to build an object file
+FileCopy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj
+.PHONY : FileCopy.cpp.obj
+
+FileCopy.i: FileCopy.cpp.i
+
+.PHONY : FileCopy.i
+
+# target to preprocess a source file
+FileCopy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopy.cpp.i
+.PHONY : FileCopy.cpp.i
+
+FileCopy.s: FileCopy.cpp.s
+
+.PHONY : FileCopy.s
+
+# target to generate assembly for a file
+FileCopy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopy.cpp.s
+.PHONY : FileCopy.cpp.s
+
 FindLegalFrame.obj: FindLegalFrame.cpp.obj
 
 .PHONY : FindLegalFrame.obj
@@ -438,6 +465,33 @@ ParseInt.s: ParseInt.cpp.s
 ParseInt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ParseInt.cpp.s
 .PHONY : ParseInt.cpp.s
+
+ReadWriteHelloWorld.obj: ReadWriteHelloWorld.cpp.obj
+
+.PHONY : ReadWriteHelloWorld.obj
+
+# target to build an object file
+ReadWriteHelloWorld.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj
+.PHONY : ReadWriteHelloWorld.cpp.obj
+
+ReadWriteHelloWorld.i: ReadWriteHelloWorld.cpp.i
+
+.PHONY : ReadWriteHelloWorld.i
+
+# target to preprocess a source file
+ReadWriteHelloWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.i
+.PHONY : ReadWriteHelloWorld.cpp.i
+
+ReadWriteHelloWorld.s: ReadWriteHelloWorld.cpp.s
+
+.PHONY : ReadWriteHelloWorld.s
+
+# target to generate assembly for a file
+ReadWriteHelloWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.s
+.PHONY : ReadWriteHelloWorld.cpp.s
 
 ReverseParagraph.obj: ReverseParagraph.cpp.obj
 
@@ -574,6 +628,9 @@ help:
 	@echo ... Factorial.obj
 	@echo ... Factorial.i
 	@echo ... Factorial.s
+	@echo ... FileCopy.obj
+	@echo ... FileCopy.i
+	@echo ... FileCopy.s
 	@echo ... FindLegalFrame.obj
 	@echo ... FindLegalFrame.i
 	@echo ... FindLegalFrame.s
@@ -589,6 +646,9 @@ help:
 	@echo ... ParseInt.obj
 	@echo ... ParseInt.i
 	@echo ... ParseInt.s
+	@echo ... ReadWriteHelloWorld.obj
+	@echo ... ReadWriteHelloWorld.i
+	@echo ... ReadWriteHelloWorld.s
 	@echo ... ReverseParagraph.obj
 	@echo ... ReverseParagraph.i
 	@echo ... ReverseParagraph.s

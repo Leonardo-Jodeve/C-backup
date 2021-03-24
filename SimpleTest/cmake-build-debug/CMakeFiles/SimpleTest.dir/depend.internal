@@ -13,6 +13,8 @@ CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj
  F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp
 CMakeFiles/SimpleTest.dir/Factorial.cpp.obj
  F:/C++/SimpleTest/Factorial.cpp
+CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj
+ F:/C++/SimpleTest/FileCopy.cpp
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj
  F:/C++/SimpleTest/FindLegalFrame.cpp
 CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj
@@ -23,6 +25,8 @@ CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj
  F:/C++/SimpleTest/MaxIntegerInString.cpp
 CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj
  F:/C++/SimpleTest/ParseInt.cpp
+CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj
+ F:/C++/SimpleTest/ReadWriteHelloWorld.cpp
 CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj
  F:/C++/SimpleTest/ReverseParagraph.cpp
 CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj

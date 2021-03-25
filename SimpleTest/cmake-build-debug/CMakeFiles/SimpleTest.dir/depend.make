@@ -25,7 +25,7 @@ CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj: ../MaxIntegerInString.cpp
 
 CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj: ../ParseInt.cpp
 
-CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj: ../ReadWriteHelloWorld.cpp
+CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj: ../ReadWrite.cpp
 
 CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj: ../ReverseParagraph.cpp
 

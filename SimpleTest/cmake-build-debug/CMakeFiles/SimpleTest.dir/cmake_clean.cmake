@@ -11,7 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"
   "CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj"
   "CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj"
-  "CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj"
+  "CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj"
   "CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj"
   "CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj"
   "CMakeFiles/SimpleTest.dir/ToString.cpp.obj"

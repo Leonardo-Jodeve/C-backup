@@ -466,32 +466,32 @@ ParseInt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ParseInt.cpp.s
 .PHONY : ParseInt.cpp.s
 
-ReadWriteHelloWorld.obj: ReadWriteHelloWorld.cpp.obj
+ReadWrite.obj: ReadWrite.cpp.obj
 
-.PHONY : ReadWriteHelloWorld.obj
+.PHONY : ReadWrite.obj
 
 # target to build an object file
-ReadWriteHelloWorld.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj
-.PHONY : ReadWriteHelloWorld.cpp.obj
+ReadWrite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj
+.PHONY : ReadWrite.cpp.obj
 
-ReadWriteHelloWorld.i: ReadWriteHelloWorld.cpp.i
+ReadWrite.i: ReadWrite.cpp.i
 
-.PHONY : ReadWriteHelloWorld.i
+.PHONY : ReadWrite.i
 
 # target to preprocess a source file
-ReadWriteHelloWorld.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.i
-.PHONY : ReadWriteHelloWorld.cpp.i
+ReadWrite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWrite.cpp.i
+.PHONY : ReadWrite.cpp.i
 
-ReadWriteHelloWorld.s: ReadWriteHelloWorld.cpp.s
+ReadWrite.s: ReadWrite.cpp.s
 
-.PHONY : ReadWriteHelloWorld.s
+.PHONY : ReadWrite.s
 
 # target to generate assembly for a file
-ReadWriteHelloWorld.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.s
-.PHONY : ReadWriteHelloWorld.cpp.s
+ReadWrite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ReadWrite.cpp.s
+.PHONY : ReadWrite.cpp.s
 
 ReverseParagraph.obj: ReverseParagraph.cpp.obj
 
@@ -646,9 +646,9 @@ help:
 	@echo ... ParseInt.obj
 	@echo ... ParseInt.i
 	@echo ... ParseInt.s
-	@echo ... ReadWriteHelloWorld.obj
-	@echo ... ReadWriteHelloWorld.i
-	@echo ... ReadWriteHelloWorld.s
+	@echo ... ReadWrite.obj
+	@echo ... ReadWrite.i
+	@echo ... ReadWrite.s
 	@echo ... ReverseParagraph.obj
 	@echo ... ReverseParagraph.i
 	@echo ... ReverseParagraph.s

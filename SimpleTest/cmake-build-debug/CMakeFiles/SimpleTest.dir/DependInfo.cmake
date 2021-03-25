@@ -16,7 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "F:/C++/SimpleTest/JosephusProblem.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"
   "F:/C++/SimpleTest/MaxIntegerInString.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/MaxIntegerInString.cpp.obj"
   "F:/C++/SimpleTest/ParseInt.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/ParseInt.cpp.obj"
-  "F:/C++/SimpleTest/ReadWriteHelloWorld.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj"
+  "F:/C++/SimpleTest/ReadWrite.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj"
   "F:/C++/SimpleTest/ReverseParagraph.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj"
   "F:/C++/SimpleTest/SubStringCounter.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj"
   "F:/C++/SimpleTest/ToString.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/ToString.cpp.obj"

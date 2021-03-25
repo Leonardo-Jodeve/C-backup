@@ -271,18 +271,18 @@ CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.s"
 	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\DeleteTheLeastCharacters.cpp -o CMakeFiles\SimpleTest.dir\DeleteTheLeastCharacters.cpp.s
 
-CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
-CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj: ../ReadWriteHelloWorld.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj"
-	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\ReadWriteHelloWorld.cpp.obj -c F:\C++\SimpleTest\ReadWriteHelloWorld.cpp
+CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
+CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj: ../ReadWrite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\C++\SimpleTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj"
+	"D:\Program Files\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SimpleTest.dir\ReadWrite.cpp.obj -c F:\C++\SimpleTest\ReadWrite.cpp
 
-CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.i"
-	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SimpleTest\ReadWriteHelloWorld.cpp > CMakeFiles\SimpleTest.dir\ReadWriteHelloWorld.cpp.i
+CMakeFiles/SimpleTest.dir/ReadWrite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleTest.dir/ReadWrite.cpp.i"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\C++\SimpleTest\ReadWrite.cpp > CMakeFiles\SimpleTest.dir\ReadWrite.cpp.i
 
-CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.s"
-	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\ReadWriteHelloWorld.cpp -o CMakeFiles\SimpleTest.dir\ReadWriteHelloWorld.cpp.s
+CMakeFiles/SimpleTest.dir/ReadWrite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleTest.dir/ReadWrite.cpp.s"
+	"D:\Program Files\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\C++\SimpleTest\ReadWrite.cpp -o CMakeFiles\SimpleTest.dir\ReadWrite.cpp.s
 
 CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj: CMakeFiles/SimpleTest.dir/flags.make
 CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj: ../FileCopy.cpp
@@ -314,7 +314,7 @@ SimpleTest_OBJECTS = \
 "CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj" \
-"CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj" \
+"CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj" \
 "CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj"
 
 # External object files for target SimpleTest
@@ -335,7 +335,7 @@ SimpleTest.exe: CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj
-SimpleTest.exe: CMakeFiles/SimpleTest.dir/ReadWriteHelloWorld.cpp.obj
+SimpleTest.exe: CMakeFiles/SimpleTest.dir/ReadWrite.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/build.make
 SimpleTest.exe: CMakeFiles/SimpleTest.dir/linklibs.rsp

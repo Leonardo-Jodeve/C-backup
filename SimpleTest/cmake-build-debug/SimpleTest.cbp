@@ -116,7 +116,7 @@
 		<Unit filename="F:/C++/SimpleTest/ParseInt.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
-		<Unit filename="F:/C++/SimpleTest/ReadWriteHelloWorld.cpp">
+		<Unit filename="F:/C++/SimpleTest/ReadWrite.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
 		<Unit filename="F:/C++/SimpleTest/ReverseParagraph.cpp">

@@ -101,6 +101,9 @@
 		<Unit filename="F:/C++/SimpleTest/FileCopy.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SimpleTest/FileCopyByLine.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SimpleTest/FindLegalFrame.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>

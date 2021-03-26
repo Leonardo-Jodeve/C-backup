@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj"
   "CMakeFiles/SimpleTest.dir/Factorial.cpp.obj"
   "CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj"
+  "CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.obj"
   "CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj"
   "CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj"
   "CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"

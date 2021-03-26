@@ -331,6 +331,33 @@ FileCopy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopy.cpp.s
 .PHONY : FileCopy.cpp.s
 
+FileCopyByLine.obj: FileCopyByLine.cpp.obj
+
+.PHONY : FileCopyByLine.obj
+
+# target to build an object file
+FileCopyByLine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.obj
+.PHONY : FileCopyByLine.cpp.obj
+
+FileCopyByLine.i: FileCopyByLine.cpp.i
+
+.PHONY : FileCopyByLine.i
+
+# target to preprocess a source file
+FileCopyByLine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.i
+.PHONY : FileCopyByLine.cpp.i
+
+FileCopyByLine.s: FileCopyByLine.cpp.s
+
+.PHONY : FileCopyByLine.s
+
+# target to generate assembly for a file
+FileCopyByLine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.s
+.PHONY : FileCopyByLine.cpp.s
+
 FindLegalFrame.obj: FindLegalFrame.cpp.obj
 
 .PHONY : FindLegalFrame.obj
@@ -631,6 +658,9 @@ help:
 	@echo ... FileCopy.obj
 	@echo ... FileCopy.i
 	@echo ... FileCopy.s
+	@echo ... FileCopyByLine.obj
+	@echo ... FileCopyByLine.i
+	@echo ... FileCopyByLine.s
 	@echo ... FindLegalFrame.obj
 	@echo ... FindLegalFrame.i
 	@echo ... FindLegalFrame.s

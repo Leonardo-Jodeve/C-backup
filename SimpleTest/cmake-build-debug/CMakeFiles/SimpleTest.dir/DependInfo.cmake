@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "F:/C++/SimpleTest/DeleteTheLeastCharacters.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/DeleteTheLeastCharacters.cpp.obj"
   "F:/C++/SimpleTest/Factorial.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/Factorial.cpp.obj"
   "F:/C++/SimpleTest/FileCopy.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj"
+  "F:/C++/SimpleTest/FileCopyByLine.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.obj"
   "F:/C++/SimpleTest/FindLegalFrame.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj"
   "F:/C++/SimpleTest/FunctionPointer.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj"
   "F:/C++/SimpleTest/JosephusProblem.cpp" "F:/C++/SimpleTest/cmake-build-debug/CMakeFiles/SimpleTest.dir/JosephusProblem.cpp.obj"

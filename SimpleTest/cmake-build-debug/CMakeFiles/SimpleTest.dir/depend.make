@@ -15,6 +15,8 @@ CMakeFiles/SimpleTest.dir/Factorial.cpp.obj: ../Factorial.cpp
 
 CMakeFiles/SimpleTest.dir/FileCopy.cpp.obj: ../FileCopy.cpp
 
+CMakeFiles/SimpleTest.dir/FileCopyByLine.cpp.obj: ../FileCopyByLine.cpp
+
 CMakeFiles/SimpleTest.dir/FindLegalFrame.cpp.obj: ../FindLegalFrame.cpp
 
 CMakeFiles/SimpleTest.dir/FunctionPointer.cpp.obj: ../FunctionPointer.cpp

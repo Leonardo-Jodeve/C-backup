@@ -103,13 +103,13 @@ void FileCopyByLine(char* sourceFilePath, char* destinationFilePath)
     close(destinationFD);
 }
 
-int main(int argv, char* args[])
-{
-    FileCopyByLine("F:\\source.txt","F:\\copy.txt");
+//int main(int argv, char* args[])
+//{
+//    FileCopyByLine("F:\\source.txt","F:\\copy.txt");
 //    if(argv != 3)
 //    {
 //        printf("Arguments error!");
 //        exit(0);
 //    }
 //    FileCopy(args[1], args[2]);
-}
+//}

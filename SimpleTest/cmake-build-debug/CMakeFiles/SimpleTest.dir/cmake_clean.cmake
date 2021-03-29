@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleTest.dir/ReverseParagraph.cpp.obj"
   "CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj"
   "CMakeFiles/SimpleTest.dir/ToString.cpp.obj"
+  "CMakeFiles/SimpleTest.dir/UserLogin.cpp.obj"
   "CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.obj"
   "SimpleTest.exe"
   "SimpleTest.exe.manifest"

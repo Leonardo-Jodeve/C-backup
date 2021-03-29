@@ -6,21 +6,3 @@
 
 #IncludeRegexTransform: 
 
-F:/C++/SimpleTest/FileCopyByLine.cpp
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/stat.h
--
-sys/types.h
--
-fcntl.h
--
-errno.h
--
-unistd.h
--
-

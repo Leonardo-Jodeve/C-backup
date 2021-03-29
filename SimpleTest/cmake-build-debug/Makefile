@@ -601,6 +601,33 @@ ToString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/ToString.cpp.s
 .PHONY : ToString.cpp.s
 
+UserLogin.obj: UserLogin.cpp.obj
+
+.PHONY : UserLogin.obj
+
+# target to build an object file
+UserLogin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/UserLogin.cpp.obj
+.PHONY : UserLogin.cpp.obj
+
+UserLogin.i: UserLogin.cpp.i
+
+.PHONY : UserLogin.i
+
+# target to preprocess a source file
+UserLogin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/UserLogin.cpp.i
+.PHONY : UserLogin.cpp.i
+
+UserLogin.s: UserLogin.cpp.s
+
+.PHONY : UserLogin.s
+
+# target to generate assembly for a file
+UserLogin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleTest.dir\build.make CMakeFiles/SimpleTest.dir/UserLogin.cpp.s
+.PHONY : UserLogin.cpp.s
+
 YangHuiTriangle.obj: YangHuiTriangle.cpp.obj
 
 .PHONY : YangHuiTriangle.obj
@@ -688,6 +715,9 @@ help:
 	@echo ... ToString.obj
 	@echo ... ToString.i
 	@echo ... ToString.s
+	@echo ... UserLogin.obj
+	@echo ... UserLogin.i
+	@echo ... UserLogin.s
 	@echo ... YangHuiTriangle.obj
 	@echo ... YangHuiTriangle.i
 	@echo ... YangHuiTriangle.s

@@ -131,6 +131,9 @@
 		<Unit filename="F:/C++/SimpleTest/ToString.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>
+		<Unit filename="F:/C++/SimpleTest/UserLogin.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
 		<Unit filename="F:/C++/SimpleTest/YangHuiTriangle.cpp">
 			<Option target="SimpleTest"/>
 		</Unit>

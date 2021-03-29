@@ -35,5 +35,8 @@ CMakeFiles/SimpleTest.dir/SubStringCounter.cpp.obj: ../SubStringCounter.cpp
 
 CMakeFiles/SimpleTest.dir/ToString.cpp.obj: ../ToString.cpp
 
+CMakeFiles/SimpleTest.dir/UserLogin.cpp.obj: ../UserLogin.cpp
+CMakeFiles/SimpleTest.dir/UserLogin.cpp.obj: ../sqlite3.h
+
 CMakeFiles/SimpleTest.dir/YangHuiTriangle.cpp.obj: ../YangHuiTriangle.cpp
 
